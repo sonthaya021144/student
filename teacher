@@ -1,0 +1,12 @@
+public class teacher {
+    private String  name;
+    public teacher() {
+        name  = "Yoda";
+    }
+    public String getName(){
+        return name;
+    }
+    public void setName(String teacherName){
+        name = teacherName;
+    }
+}
