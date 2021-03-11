@@ -1,0 +1,16 @@
+public class Student  {
+        String ID;
+        String name;
+        String Student = "3" ;
+        String teacher = "1";
+        Student() {
+            ID = "S01,S02,S03";
+            name = "Luke Skywalker,Han Solo,Leia Organa";
+            name = " Yoda ";
+        }
+        Student(String ID, String name) {
+            name = name;
+            ID = ID;
+
+        }
+    }
