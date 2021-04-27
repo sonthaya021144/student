@@ -1,0 +1,28 @@
+public class Return {
+    public static void main(String[] args) {
+
+        float name = getName();
+        System.out.println("Data" + name);
+
+        System.out.println("\n data");
+        for (int i = 1; i <= 20; i++) {
+            if (isPrime(i)) {
+                System.out.println(i + "Data");
+            } else {
+                System.out.println(i + "Data");
+            }
+        }
+
+    }
+
+    public static float getName () {
+        return 3.14f;
+    }
+
+    public static boolean isPrime(int name) {
+        for (int i = 2; i < name; i++) {
+            if (name % i == 0 && i != name) return false;
+        }
+        return true;
+    }
+}
