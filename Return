@@ -19,7 +19,7 @@ public class Return {
         return 3.14f;
     }
 
-    public static boolean Data (int name) {
+    public static boolean isPrime(int name) {
         for (int i = 2; i < name; i++) {
             if (name % i == 0 && i != name) return false;
         }
