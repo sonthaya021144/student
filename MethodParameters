@@ -1,0 +1,24 @@
+public class MethodParameters {
+    public static void main(String[] args) {
+        MethodParameters reader = new MethodParameters (system.in);
+        open ();
+        System.out.print("Enter music name to play: ");
+        play(reader.WithLine());
+        System.out.println("Where do you want to seek music to?");
+        int min, sec;
+        System.out.print("Enter minute: ");
+        min = reader.nextInt();
+        System.out.print("Enter second: ");
+        sec = reader.nextInt();
+        seekTo(sec, min);
+    }
+    public static void open () {
+        System.out.println("Music player started.");
+    }
+    public static void play (String name) {
+        System.out.println("Playing your music \" " + name + "\"");
+    }
+    public static void seekTo (int sec, int min) {
+        System.out.println("Seek music to " + min + ":" + sec);
+    }
+}
