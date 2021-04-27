@@ -1,0 +1,55 @@
+public class Student {
+
+        private String  name;
+        private String  Email;
+        private String  Id ;
+        private String  nickname ;
+        private String  add ;
+        private String  phone ;
+        public Student() {
+            name  = ("");
+            nickname  = ("");
+            Id = ("");
+            Email = ("");
+            add = ("");
+            phone = ("");
+
+        }
+        public String getEmail(){
+            return Email;
+        }
+        public String getName(){
+            return name;
+        }
+        public String getId(){
+            return Id;
+        }
+        public String getNickname(){
+            return nickname;
+        }
+        public String getAdd(){
+            return add;
+        }
+        public String getPhone(){
+            return phone;
+        }
+        public void setEmail(String address){
+            Email = address;
+        }
+        public void setName(String studentName){
+            name = studentName;
+        }
+        public void setId(String address){
+            Id = address;
+        }
+        public void setNickname(String studentNickname){
+            nickname = studentNickname;
+        }
+        public void setAdd(String address){
+            add = address;
+        }
+        public void setPhone(String number){
+            phone = number;
+        }
+    }
+
